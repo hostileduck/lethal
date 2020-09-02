@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ecf0f1;
+}
+
+.loginclass{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ecf0f1;
+  text-align: center;
+}
+
+.loginclass h1{
+  color: #c0392b;
+  font-size: 50px;
+}
+
+.loginclass input[type="text"],.loginclass input[type="password"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #c0392b;
+  padding: 14px 20px;
+  width: 200px;
+  color: black;
+  outline: none;
+}
+
+.loginclass input[type="submit"]{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #2ecc71;
+  padding: 14px 20px;
+  width: 100px;
+  outline: none;
+}
